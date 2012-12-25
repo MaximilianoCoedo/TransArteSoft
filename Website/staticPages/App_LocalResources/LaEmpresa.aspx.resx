@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Image2Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelAyudaResource1.Text" xml:space="preserve">
+    <value>A&lt;br&gt;Y&lt;br&gt;U&lt;br&gt;D&lt;br&gt;A&lt;br&gt;&lt;br&gt;E&lt;br&gt;M&lt;br&gt;P&lt;br&gt;R&lt;br&gt;E&lt;br&gt;S&lt;br&gt;A&lt;br&gt;</value>
+  </data>
+  <data name="LabelAyudaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelEmpresaDescripcionAyuda.Text" xml:space="preserve">
+    <value>En esta página describe el inicio y la trayectoria de TransArte, si no está registrado por favor contactese con :( &lt;a href="Contactos.aspx"&gt;Contactos TransArte&lt;/a&gt; ) .-</value>
+  </data>
+  <data name="LabelEmpresaDescripcionAyuda.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelEmpresaDescripcionResource1.Text" xml:space="preserve">
+    <value>Desde sus inicios en el año 1995 Adrián García transportaba todo tipo de mercadería, siempre haciendo este trabajo lo más cuidadoso posible, llevando al detalle la manipulación de la mercadería transportada,
+  haciéndose conocido en el rubro del transporte por la calidad en el servicio que brindaba, y observando que cada vez más gente estaba interesada en el Arte, aperturas de nuevos museos, expansión de subastas de obras de arte y exposiciones cada vez mas frecuentes decide en el año 2001 fundar Trans-Arte una empresa comercial con capitales privados dedicada solamente al transporte de arte teniendo como objetivos principales el mejor manejo de arte durante el transporte y la mejor atención. 
+ &lt;br&gt;
+ En la actualidad Trans-Arte a crecido y brinda mensualmente  servicios en promedio de 10 museos y galerías de arte para diferentes eventos o exposiciones, para poder brindar un buen servicio el transporte se adapta según la ocasión a las necesidades de la carga en vehículos climatizados, equipados con sistemas de comunicación, alarmas y seguimiento satelital que posibilitan un control adicional y una perfecta planificación de los servicios contratados, además Trans-Arte cuanta con un estricto control del desarrollo de los mismos mediante la red de telecomunicaciones que los mantiene en comunicación directa con los vehículos tripulados por un chofer, acompañante, y personal de seguridad de ser necesario.
+ &lt;br&gt;
+ Trans-Arte se define como una empresa dedicada al transporte, locación, resguardo y asesoramiento de antigüedades, arte o cualquier tipo de carga que requiera un tratamiento similar, en el área de capital federal con un buen nivel de seguridad y cuidado de la carga,  gestiona todas las rutas y trabajos desde su sede central en Avellaneda, Buenos Aires, además permite mantener permanentemente actualizado al cliente sobre el estado de sus envíos. 
+&lt;br&gt;
+&lt;br&gt;
+ Trans-Arte sigue las recomendaciones y especificaciones técnicas requeridas por los museos internacionales para el transporte de sus obras además de contar con personal capacitado y con experiencia en el cuidado de las mismas durante el embalaje, locación, almacenaje, manipuleo y transporte.
+  &lt;br&gt;
+  A futuro Trans-Arte se propuso entrar en el negocio de los E-Business, la ventaja que ofrece el E-Business al proyecto es la apertura de un nuevo canal para la captación de clientes y servicios, para lograr altos beneficios en los niveles de ganancia logrando ser referentes en el área de transporte de arte a nivel nacional además de la alta disponibilidad de la información, actualización rápida y fácil, nuevos servicios a costos altamente competitivos. &lt;br&gt;</value>
+  </data>
+  <data name="LabelEmpresaDescripcionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelEmpresaHeaderResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelEmpresaHeaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelEmpresaLegendResource1.Text" xml:space="preserve">
+    <value> TransArte:                 </value>
+  </data>
+  <data name="LabelEmpresaLegendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelEmpresaPieAyuda.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelEmpresaPieAyuda.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelEmpresaPieResource1.Text" xml:space="preserve">
+    <value>Si tiene alguna consulta contactenos :( &lt;a href="Contactos.aspx"&gt;Contactos TransArte&lt;/a&gt; )</value>
+  </data>
+  <data name="LabelEmpresaPieResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelEmpresaTituloAyuda.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelEmpresaTituloAyuda.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource2.Title" xml:space="preserve">
+    <value>La Empresa</value>
+  </data>
+</root>

@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bitacoraResource1.Text" xml:space="preserve">
+    <value>Bitacora</value>
+  </data>
+  <data name="bitacoraResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBorrarCriticidadResource1.Text" xml:space="preserve">
+    <value>Clear by Criticality</value>
+  </data>
+  <data name="btnBorrarCriticidadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBorrarDescripcionResource1.Text" xml:space="preserve">
+    <value>Clear by description</value>
+  </data>
+  <data name="btnBorrarDescripcionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBorrarDesdeHastaResource1.Text" xml:space="preserve">
+    <value>Clear by Dates</value>
+  </data>
+  <data name="btnBorrarDesdeHastaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBorrarTodosResource1.Text" xml:space="preserve">
+    <value>Clear all</value>
+  </data>
+  <data name="btnBorrarTodosResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBorrarUsuarioResource1.Text" xml:space="preserve">
+    <value>Delete by User</value>
+  </data>
+  <data name="btnBorrarUsuarioResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBuscarCriticidadResource1.Text" xml:space="preserve">
+    <value>Search by Criticality</value>
+  </data>
+  <data name="btnBuscarCriticidadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBuscarDescripcionResource1.Text" xml:space="preserve">
+    <value>Search by description</value>
+  </data>
+  <data name="btnBuscarDescripcionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBuscarDesdeHastaResource1.Text" xml:space="preserve">
+    <value>Search by Dates</value>
+  </data>
+  <data name="btnBuscarDesdeHastaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBuscarTodosResource1.Text" xml:space="preserve">
+    <value>Search all</value>
+  </data>
+  <data name="btnBuscarTodosResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBuscarUsuarioResource1.Text" xml:space="preserve">
+    <value>Search by User</value>
+  </data>
+  <data name="btnBuscarUsuarioResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCorregirIntegridadResource1.Text" xml:space="preserve">
+    <value>Correct integrity</value>
+  </data>
+  <data name="btnCorregirIntegridadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnImprimirReporteResource1.Text" xml:space="preserve">
+    <value>Report generate</value>
+  </data>
+  <data name="btnImprimirReporteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="criticidadIdResource1.Text" xml:space="preserve">
+    <value>Id criticality</value>
+  </data>
+  <data name="criticidadIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="criticidadResource1.Text" xml:space="preserve">
+    <value>Criticality</value>
+  </data>
+  <data name="criticidadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="descripcionResource1.Text" xml:space="preserve">
+    <value>description</value>
+  </data>
+  <data name="descripcionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fechaResource1.Text" xml:space="preserve">
+    <value>date</value>
+  </data>
+  <data name="fechaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridBitacoraTOOLResource1.Text" xml:space="preserve">
+    <value>This grid displays records in the log</value>
+  </data>
+  <data name="gridBitacoraTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridInconcistenciaTOOLResource1.Text" xml:space="preserve">
+    <value>This grid displays records with problems of inconsistency</value>
+  </data>
+  <data name="gridInconcistenciaTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="idDeTablaResource1.Text" xml:space="preserve">
+    <value>Id of the table</value>
+  </data>
+  <data name="idDeTablaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="idUsuarioResource1.Text" xml:space="preserve">
+    <value>user Id</value>
+  </data>
+  <data name="idUsuarioResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="inconsistenciaResource1.Text" xml:space="preserve">
+    <value>inconsistency</value>
+  </data>
+  <data name="inconsistenciaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="integridadResource1.Text" xml:space="preserve">
+    <value>integrity</value>
+  </data>
+  <data name="integridadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqBtnBorrarCriticidadTOOLResource1.Text" xml:space="preserve">
+    <value>Clears in the log records that correspond to the selected criticality</value>
+  </data>
+  <data name="jqBtnBorrarCriticidadTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqBtnBorrarDescripcionTOOLResource1.Text" xml:space="preserve">
+    <value>Deletes the records in the log that contains the description entered</value>
+  </data>
+  <data name="jqBtnBorrarDescripcionTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqBtnBorrarDesdeHastaTOOLResource1.Text" xml:space="preserve">
+    <value>Clears in the log records corresponding to the entered date range</value>
+  </data>
+  <data name="jqBtnBorrarDesdeHastaTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqBtnBorrarTodosTOOLResource1.Text" xml:space="preserve">
+    <value>Delete all entries in the log</value>
+  </data>
+  <data name="jqBtnBorrarTodosTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqBtnBorrarUsuarioTOOLResource1.Text" xml:space="preserve">
+    <value>Clears in the log records that correspond to the selected user</value>
+  </data>
+  <data name="jqBtnBorrarUsuarioTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqBtnBuscarCriticidadTOOLResource1.Text" xml:space="preserve">
+    <value>Looking in the log records that correspond to the selected criticality</value>
+  </data>
+  <data name="jqBtnBuscarCriticidadTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqBtnBuscarDescripcionTOOLResource1.Text" xml:space="preserve">
+    <value>Looking in the log records containing the description entered</value>
+  </data>
+  <data name="jqBtnBuscarDescripcionTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqBtnBuscarDesdeHastaTOOLResource1.Text" xml:space="preserve">
+    <value>Looking in the log records that correspond to the entered date range</value>
+  </data>
+  <data name="jqBtnBuscarDesdeHastaTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqBtnBuscarTodosTOOLResource1.Text" xml:space="preserve">
+    <value>Find all the records in the log</value>
+  </data>
+  <data name="jqBtnBuscarTodosTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqBtnBuscarUsuarioTOOLResource1.Text" xml:space="preserve">
+    <value>Looking in the log records that correspond to the selected user</value>
+  </data>
+  <data name="jqBtnBuscarUsuarioTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqBtnCorregirIntegridadTOOLResource1.Text" xml:space="preserve">
+    <value>Corrects the integrity of the tables in the database</value>
+  </data>
+  <data name="jqBtnCorregirIntegridadTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqBtnImprimirReporteTOOLResource1.Text" xml:space="preserve">
+    <value>Print the report of the logbook</value>
+  </data>
+  <data name="jqBtnImprimirReporteTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqTxtCriticidadTOOLResource1.Text" xml:space="preserve">
+    <value>Select combo criticality</value>
+  </data>
+  <data name="jqTxtCriticidadTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqTxtDescripcionTOOLResource1.Text" xml:space="preserve">
+    <value>Enter a description, minimum 3 characters</value>
+  </data>
+  <data name="jqTxtDescripcionTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqTxtFechaDesdeTOOLResource1.Text" xml:space="preserve">
+    <value>Enter a date no more to Date Up</value>
+  </data>
+  <data name="jqTxtFechaDesdeTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqTxtFechaHastaTOOLResource1.Text" xml:space="preserve">
+    <value>Enter a date not less than Date From</value>
+  </data>
+  <data name="jqTxtFechaHastaTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="jqTxtUsuarioTOOLResource1.Text" xml:space="preserve">
+    <value>Select a user from the combo</value>
+  </data>
+  <data name="jqTxtUsuarioTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCriticidadResource1.Text" xml:space="preserve">
+    <value>criticality:</value>
+  </data>
+  <data name="lblCriticidadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescripcionResource1.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="lblDescripcionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFechaDesdeResource1.Text" xml:space="preserve">
+    <value>Date from:</value>
+  </data>
+  <data name="lblFechaDesdeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFechaHastaResource1.Text" xml:space="preserve">
+    <value>Date to:</value>
+  </data>
+  <data name="lblFechaHastaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormatoFechasResource1.Text" xml:space="preserve">
+    <value>MM/dd/yyyy</value>
+  </data>
+  <data name="lblFormatoFechasResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblregionalResource1.Text" xml:space="preserve">
+    <value>en-GB</value>
+  </data>
+  <data name="lblregionalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUsuarioResource1.Text" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="lblUsuarioResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="legendTitleResource1.Text" xml:space="preserve">
+    <value>Management blog:</value>
+  </data>
+  <data name="legendTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgErrorCriticidadValidaResource1.Text" xml:space="preserve">
+    <value>You must select a level of criticality.</value>
+  </data>
+  <data name="msgErrorCriticidadValidaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgErrorDescCaracteresResource1.Text" xml:space="preserve">
+    <value>You must enter at least 3 characters in the description.</value>
+  </data>
+  <data name="msgErrorDescCaracteresResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgErrorDescValidaResource1.Text" xml:space="preserve">
+    <value>You must enter a description.</value>
+  </data>
+  <data name="msgErrorDescValidaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgErrorFechaDesdeValidaResource1.Text" xml:space="preserve">
+    <value>You must enter a valid date since.</value>
+  </data>
+  <data name="msgErrorFechaDesdeValidaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgErrorFechaHastaValidaResource1.Text" xml:space="preserve">
+    <value>You must enter a valid date up.</value>
+  </data>
+  <data name="msgErrorFechaHastaValidaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgErrorMayorValidaResource1.Text" xml:space="preserve">
+    <value>You must enter a date up to date since increased.</value>
+  </data>
+  <data name="msgErrorMayorValidaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgErrorResource1.Text" xml:space="preserve">
+    <value>There was an error</value>
+  </data>
+  <data name="msgErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgErrorUsuarioValidoResource1.Text" xml:space="preserve">
+    <value>You must select a valid username.</value>
+  </data>
+  <data name="msgErrorUsuarioValidoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgOkBorrarResource1.Text" xml:space="preserve">
+    <value>Records have been deleted successfully</value>
+  </data>
+  <data name="msgOkBorrarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgOkIntegridadResource1.Text" xml:space="preserve">
+    <value>Corrected the integrity of all tables</value>
+  </data>
+  <data name="msgOkIntegridadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgProcesandoResource1.Text" xml:space="preserve">
+    <value>Wait a minute!</value>
+  </data>
+  <data name="msgProcesandoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="tablaAfectadaResource1.Text" xml:space="preserve">
+    <value>table affected</value>
+  </data>
+  <data name="tablaAfectadaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="usuarioResource1.Text" xml:space="preserve">
+    <value>user</value>
+  </data>
+  <data name="usuarioResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="help_dialogResource1.Text" xml:space="preserve">
+    <value>&lt;span class='ui-icon ui-icon-comment' style='float: left; margin-right: .3em;'&gt;&lt;/span&gt;Service and Support</value>
+  </data>
+  <data name="help_dialog_TOOLResource1.Text" xml:space="preserve">
+    <value>Table of log management helps</value>
+  </data>
+  <data name="help_dialog_contentResource1.Text" xml:space="preserve">
+    <value>&lt;span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Help Log:&lt;/strong&gt;
+        &lt;br&gt;&lt;hr size="5" noshade&gt;&lt;br&gt;
+          In this screen you can:
+        &lt;br&gt;&lt;br&gt;
+        &lt;span class="ui-icon ui-icon-radio-off" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        Filter the log by user.-
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-radio-off" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        Clear the log by user.-
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-radio-off" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+          Filter the log by description.-
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-radio-off" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        Clear the log by description.-
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-radio-off" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+          Refine your weblog criticality.-
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-radio-off" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+          Clear the log by criticality.-
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-radio-off" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+           Filter the log by date.-
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-radio-off" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+         Clear the log by date.-
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-radio-off" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+         Bring all the log records.-
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-radio-off" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+         Delete all the log.-
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-radio-off" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+         Correct the integrity of the database. -
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-radio-off" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+         Print this blog.-
+        &lt;br&gt;&lt;br&gt;&lt;hr size="5" noshade&gt;
+        &lt;br&gt;
+
+
+        &lt;span class="ui-icon ui-icon-play" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Filter the log by user:&lt;/strong&gt;&lt;br&gt;&lt;br&gt;
+         Select a user from the user combo and press the filter by user. -
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-play" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Clear the log by user:&lt;/strong&gt;&lt;br&gt;&lt;br&gt;
+          Select a user from the user combo and press the delete by user. -
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-play" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Filter the log by description:&lt;/strong&gt;&lt;br&gt;&lt;br&gt;
+        Enter a description in the Description field and press the filter by description,
+the description field must have at least 3 characters. -
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-play" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Clear the log by description:&lt;/strong&gt;&lt;br&gt;&lt;br&gt;
+         Enter a description in the Description field and press the delete by description,
+the description field must have at least 3 characters. -
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-play" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Refine your weblog criticality:&lt;/strong&gt;&lt;br&gt;
+        Select a type of criticality criticality combo and press the filter by criticality. -
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-play" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Clear the log by criticality:&lt;/strong&gt;&lt;br&gt;
+        Select a type of criticality criticality combo and press the delete button for criticality. -
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-play" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Filter the log by date:&lt;/strong&gt;&lt;br&gt;
+         Enter a date from the date field and from a date up to date in the field
+and press the search by date from the date field should be less than up to date. -
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-play" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Clear the log by date:&lt;/strong&gt;&lt;br&gt;
+         Enter a date from the date field and from a date up to date in the field
+and press the delete by date from the date field should be less than up to date. -
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-play" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Bring all the log records:&lt;/strong&gt;&lt;br&gt;
+         Press search All to bring all the log records, this process may take. -
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-play" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Delete all records in the log:&lt;/strong&gt;&lt;br&gt;
+        Press the Clear All button to delete all entries for the blog, this process may take. -
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-play" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Correct the integrity of the database:&lt;/strong&gt;&lt;br&gt;
+         Press Correct integrity for the integrity of the database,
+This process can take and only enabled if the database is inconsistent. -
+        &lt;br&gt;&lt;br&gt;&lt;span class="ui-icon ui-icon-play" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Print log:&lt;/strong&gt;&lt;br&gt;
+         Press the Print button to generate a report log with the log records. -
+        &lt;br&gt;&lt;br&gt;&lt;hr size="5" noshade&gt;</value>
+  </data>
+  <data name="btnBorrarPorParametrosResource1.Text" xml:space="preserve">
+    <value>Clear by parameters</value>
+  </data>
+  <data name="btnBuscarPorParametrosResource1.text" xml:space="preserve">
+    <value>Search by parameters</value>
+  </data>
+  <data name="jqBtnBorrarPorParametrosTOOLResource1.Text" xml:space="preserve">
+    <value>Clears the log records, according to the parameters selected</value>
+  </data>
+  <data name="jqBtnBuscarPorParametrosTOOLResource1.Text" xml:space="preserve">
+    <value>Search the log records, according to the parameters selected</value>
+  </data>
+  <data name="msgOkReporteGeneradoResource1.Text" xml:space="preserve">
+    <value>Report generate sucessful.-</value>
+  </data>
+  <data name="btnVerErroresResource1.Text" xml:space="preserve">
+    <value>See Errors</value>
+  </data>
+  <data name="jqBtnVerErroresTOOLResource1.Text" xml:space="preserve">
+    <value>Opens a new window with the history of the system log. -</value>
+  </data>
+  <data name="jsGridLibraryResource.Text" xml:space="preserve">
+    <value>../script/jquery.jqGrid-4.4.1/src/i18n/grid.locale-en.js</value>
+  </data>
+</root>

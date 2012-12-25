@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Image1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image2Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelAyudaResource1.Text" xml:space="preserve">
+    <value>H&lt;br&gt;E&lt;br&gt;L&lt;br&gt;P&lt;br&gt;&lt;br&gt;S&lt;br&gt;E&lt;br&gt;R&lt;br&gt;V&lt;br&gt;I&lt;br&gt;C&lt;br&gt;E&lt;br&gt;</value>
+  </data>
+  <data name="LabelAyudaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelServiciosDescripcionAyuda.Text" xml:space="preserve">
+    <value>This page shows a brief description of the services provided TransArt</value>
+  </data>
+  <data name="LabelServiciosDescripcionItemsResource1.Text" xml:space="preserve">
+    <value>&lt;ul&gt;
+&lt;li&gt;timetabling 
+&lt;/li&gt;
+&lt;li&gt;Carrying out the appropriate administrative
+&lt;/li&gt;
+&lt;li&gt;Customer Information state that the process is
+&lt;/li&gt;
+&lt;ul&gt;</value>
+  </data>
+  <data name="LabelServiciosDescripcionResource1.Text" xml:space="preserve">
+    <value>From our offices in Avellaneda  ( &lt;a href='http://localhost:1194/Website/staticPages/Ubicacion.aspx'&gt;TransArte&lt;/a&gt; ) , we coordinate all transportation. &lt;br/&gt;
+To do this, we have the latest equipment. Our team is responsible for overseeing the whole process of transportation from the works of leaving home until they reach their destination:</value>
+  </data>
+  <data name="LabelServiciosDescripcionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelServiciosLegendResource1.Text" xml:space="preserve">
+    <value>Services provided:</value>
+  </data>
+  <data name="LabelServiciosPieAyuda.Text" xml:space="preserve">
+    <value>In the carousel of photos you can see the various tasks performed and quality with which they perform.</value>
+  </data>
+  <data name="LabelServiciosPieResource1.Text" xml:space="preserve">
+    <value>&lt;br /&gt;
+TransArt provides all the service of transporting works of art, whether one piece or set of works for an exhibition, with the highest level of security, offering solutions to any kind of need arising from the complex concentration or dispersion of the works exhibition in removals.
+&lt;br /&gt;
+Our services range from sending a piece to a single destination by land within Argentine territory, to the complete transfer of a set of pieces of an itinerant.
+&lt;ul&gt;
+    &lt;li&gt;Collection, transfer door to door and online tracking &lt;/li&gt;
+    &lt;li&gt;Collection, packaging, transportation door to door and online tracking &lt;/li&gt;
+    &lt;li&gt;Receiving works for later transfer and online tracking &lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+Contact &lt;a href='http://localhost:1194/Website/staticPages/Contactos.aspx'&gt;www.TransArte.com.ar&lt;/a&gt;
+&lt;br /&gt;</value>
+  </data>
+  <data name="LabelServiciosPieResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelServiciosTituloAyuda.Text" xml:space="preserve">
+    <value>&lt;b&gt;Help Section: services&lt;/b&gt;</value>
+  </data>
+  <data name="LabelServiciosTituloResource1.Text" xml:space="preserve">
+    <value>Transport specializes in works of art</value>
+  </data>
+  <data name="LabelServiciosTituloResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Services provided by</value>
+  </data>
+</root>

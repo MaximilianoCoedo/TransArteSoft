@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnContactosEnviar.Text" xml:space="preserve">
+    <value>Send mail</value>
+  </data>
+  <data name="btnContactosEnviar.ToolTip" xml:space="preserve">
+    <value>Press this button to send an email to TRANSARTE</value>
+  </data>
+  <data name="LabelAyudaResource1.Text" xml:space="preserve">
+    <value>H&lt;br&gt;E&lt;br&gt;L&lt;br&gt;P&lt;br&gt;&lt;br&gt;C&lt;br&gt;O&lt;br&gt;N&lt;br&gt;T&lt;br&gt;A&lt;br&gt;C&lt;br&gt;T&lt;br&gt;S&lt;br&gt;</value>
+  </data>
+  <data name="LabelAyudaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelContactosApellidos.Text" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="LabelContactosComentarios.Text" xml:space="preserve">
+    <value>Comments &lt;b&gt;(*)&lt;/b&gt;</value>
+  </data>
+  <data name="LabelContactosCorreo.Text" xml:space="preserve">
+    <value>e-mail&lt;b&gt;(*)&lt;/b&gt;</value>
+  </data>
+  <data name="LabelContactosDescripcionAyuda.Text" xml:space="preserve">
+    <value>On this page you can contact TransArte staff, send suggestions, opinions or questions .- </value>
+  </data>
+  <data name="LabelContactosDescripcionAyuda.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelContactosDescripcionItemsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelContactosDescripcionResource1.Text" xml:space="preserve">
+    <value>You can send your comments or suggestions using the form below, or by regular mail to TransArteSrl@gmail.com. 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;br&gt;
+Canning Street 3152, City of Buenos Aires (1870)
+&lt;/br&gt;
+Tel-fax (54) 11 4204-6552
+&lt;/br&gt;&lt;b&gt;
+Fields marked with an asterisk (*) are required.
+&lt;/b&gt;</value>
+  </data>
+  <data name="LabelContactosLegendResource1.Text" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="LabelContactosLegendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelContactosNombre.Text" xml:space="preserve">
+    <value>Name&lt;b&gt;(*)&lt;/b&gt;</value>
+  </data>
+  <data name="LabelContactosPieAyuda.Text" xml:space="preserve">
+    <value>Enter your information in the empty fields (fields name, email and comments are mandatory), in the Name field enter your personal data .-
+&lt;br /&gt;
+The email and phone fields are important to respond to your comment .-
+&lt;br /&gt;
+In the comments field enter your suggestions, opinions or consultation after the data is entered press SEND MAIL to post your comment TransArte personnel .-
+&lt;br /&gt;
+Finally wait for confirmation or sending the comment .-</value>
+  </data>
+  <data name="LabelContactosPieAyuda.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelContactosPieResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelContactosPieResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelContactosTelefono.Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="LabelContactosTituloAyuda.Text" xml:space="preserve">
+    <value>&lt;b&gt;Help section: Contacts&lt;/b&gt;</value>
+  </data>
+  <data name="lblContactosRespuestaError.text" xml:space="preserve">
+    <value>The data were not sent, try again later .- Error type:</value>
+  </data>
+  <data name="lblContactosRespuestaOk.text" xml:space="preserve">
+    <value>The data was sent successfully</value>
+  </data>
+  <data name="PageTitle.Title" xml:space="preserve">
+    <value>Send mail</value>
+  </data>
+  <data name="RegularExpressionValidatorMail.ErrorMessage" xml:space="preserve">
+    <value>You must enter a valid email address</value>
+  </data>
+  <data name="RequiredFieldValidatorComentario.ErrorMessage" xml:space="preserve">
+    <value>You must enter a comment in the field</value>
+  </data>
+  <data name="RequiredFieldValidatorMail.ErrorMessage" xml:space="preserve">
+    <value>You must enter an email in the field</value>
+  </data>
+  <data name="RequiredFieldValidatorNombre.ErrorMessage" xml:space="preserve">
+    <value>You must enter a name in the field</value>
+  </data>
+</root>

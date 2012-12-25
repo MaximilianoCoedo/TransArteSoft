@@ -1,0 +1,211 @@
+﻿<%@ Master Language="C#" CodeFile="MasterPage.master.cs" Inherits="MasterPage" EnableTheming="true" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>TransArte</title>
+
+  
+    <link type="text/css" href="../script/jquery-ui-1.8.16.custom/development-bundle/themes/base/jquery.ui.all.css" rel="stylesheet" />
+    <link type="text/css" href="../script/jquery-ui-1.8.16.custom/development-bundle/demos/demos.css" rel="stylesheet"  />
+    <link type="text/css" href="../script/jquery-ui-1.8.16.custom/css/ui-lightness/jquery-ui-1.8.16.custom.css" rel="stylesheet" />
+
+    <link type="text/css" href="../script/jquery-ui-1.8.16.custom/css/ayuda.css" rel="stylesheet" />
+
+    <link type="text/css" href="../script/webwidget_menu_glide/webwidget_menu_glide.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="../script/jquery-ui-1.8.16.custom/js/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="../script/jquery-ui-1.8.16.custom/js/jquery-ui-1.8.16.custom.min.js"></script>
+    <script type="text/javascript" src="../script/jquery-ui-1.8.16.custom/js/jquery.bgiframe-2.1.2.js"></script>
+    <script type="text/javascript" src="../script/jquery-ui-1.8.16.custom/development-bundle/ui/jquery.ui.core.js"></script>
+    <script type="text/javascript" src="../script/jquery-ui-1.8.16.custom/development-bundle/ui/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="../script/jquery-ui-1.8.16.custom/development-bundle/ui/jquery.ui.mouse.js"></script>
+    <script type="text/javascript" src="../script/jquery-ui-1.8.16.custom/development-bundle/ui/jquery.ui.button.js"></script>
+    <script type="text/javascript" src="../script/jquery-ui-1.8.16.custom/development-bundle/ui/jquery.ui.draggable.js"></script>
+    <script type="text/javascript" src="../script/jquery-ui-1.8.16.custom/development-bundle/ui/jquery.ui.position.js"></script>
+    <script type="text/javascript" src="../script/jquery-ui-1.8.16.custom/development-bundle/ui/jquery.ui.resizable.js"></script>
+        
+    <script type="text/javascript" src="../script/jcarousellite_1.0.1/jcarousellite_1.0.1.js"></script>
+    <link href="../script/webwidget_menu_glide/webwidget_menu_glide.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../script/webwidget_menu_glide/webwidget_menu_glide.js"></script>
+ 
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(document).keydown(function (evento) {
+                if (evento && evento.which == 112) { // evento ayuda  F1
+                    $('#main').toggleClass('use-sidebar');
+                    $("#h_dialog").dialog("open");
+                };
+            });
+
+            var objSeparator = $('#separator');
+            objSeparator.click(function (e) {
+                $('#main').toggleClass('use-sidebar');
+                //}).css('height', objSeparator.parent().outerHeight() + 'px'); comentado para poner estatico
+            }).css('height', '100%');
+
+            $(".tipoBoton").hover(function () {
+                $(this).addClass("ui-state-hover");
+            }, function () {
+                $(this).removeClass("ui-state-hover");
+            });
+
+            $(".carruselClass").jCarouselLite({
+                auto: 800,
+                speed: 1000
+            });
+
+
+            $("#webwidget_menu_glide").webwidget_menu_glide({
+                menu_width: "120",
+                menu_height: "23",
+                menu_text_size: "12",
+                menu_text_color: "#FFF",
+                menu_sprite_color: "#86C7EF",
+                menu_background_color: "#0F67A1",
+                menu_margin: "2",
+                sprite_speed: "normal",
+                container: "webwidget_menu_glide"
+            });
+
+
+
+        });
+    </script>
+</head>
+<body bgcolor="#a6c9e">
+    <form id="form1" runat="server">
+    <div style="text-align: center; width: 86%; margin-left: 7%;" class="ui-widget ui-widget-content ui-corner-all"
+        align="center">
+        <table style="width: 100%;" cellpadding="0" cellspacing="0" align="center">
+            <tr>
+                <td>
+                    <asp:Image ID="ImageHeader" runat="server" Width="99.9%" Height="150px" ImageUrl="~/images/header_logo.JPG"
+                        ImageAlign="Middle" BorderStyle="None" />
+                </td>
+            </tr>
+        </table>
+        <table style="width: 99%;" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+                <td align="left" class="style1 ">
+                    <asp:Label ID="lblUsuario" runat="server" meta:resourcekey="lblUsuarioResource" Text="Usuario : " />
+                    <asp:Label ID="lblUsuario2" runat="server" Text="" Font-Bold="true" />
+                    <asp:LinkButton ID="btnLogin" runat="server" BorderStyle="None" OnClick="btnLogin_Click"
+                        meta:resourcekey="btnLoginResource" CausesValidation="False" Visible="True"></asp:LinkButton>
+                    <asp:LinkButton Visible ="false"  ID="btnLogout" runat="server" BorderStyle="None" OnClick="btnLogout_Click"
+                        meta:resourcekey="btnLogoutResource" CausesValidation="False"></asp:LinkButton>
+                </td>
+                <td align="right">
+                    <asp:Label ID="lblFecha" runat="server" meta:resourcekey="lblFechaResource"></asp:Label>
+                </td>
+                <td class="ui-buttonset" align="right">
+                    <asp:LinkButton ID="LnkBIngles" runat="server" Width="100px" class="tipoBoton ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left"
+                        OnClick="LnkBIngles_Click" Style="height: 26px; text-align: center" meta:resourcekey="LnkBInglesResource" CausesValidation="False">
+                        <asp:Image ID="Image1" runat="server" Width="20px" Height="20px" ImageUrl="~/images/english-version.png"
+                            ImageAlign="Middle" BorderStyle="None" />
+                        &nbsp;
+                        <asp:Label ID="Label1" runat="server" class="vertical-align:middle;" Text="English"
+                            meta:resourcekey="lblInglesResource" />
+                    </asp:LinkButton><asp:LinkButton ID="LnkBEspanol" runat="server" Width="100px" class="tipoBoton ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right"
+                        OnClick="LnkBEspanol_Click" Style="height: 26px; text-align: center; vertical-align: bottom;"
+                        meta:resourcekey="LnkBEspanolResource" CausesValidation="False">
+                        <asp:Label ID="Label4" runat="server" meta:resourcekey="lblEspanolResource" />
+                        &nbsp;
+                        <asp:Image ID="Image2" runat="server" Width="20px" Height="20px" ImageUrl="~/images/Version-español.png"
+                            ImageAlign="Middle" BorderStyle="None" />
+                    </asp:LinkButton></td></tr></table><table style="width: 100%;" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+                <td class="ui-buttonset">
+                </td>
+            </tr>
+            <tr >
+                <td align="center">
+                    <div id="webwidget_menu_glide" class="webwidget_menu_glide"  style="width: 610px">
+                        <div class="webwidget_menu_glide_sprite" >
+                        </div>
+                        <ul>
+                            <li class="webwidget_menu_glide_sprite_1"><a  href="../staticPages/Inicio.aspx">
+                                <asp:HyperLink ID="HyperLink1" Width="120px" runat="server" NavigateUrl="~/staticPages/Inicio.aspx"
+                                    meta:resourcekey="HyperLink1Inicio" Text="inicio" />
+                            </a></li>
+                            <li class="webwidget_menu_glide_sprite_2"><a href="../staticPages/LaEmpresa.aspx">
+                                <asp:HyperLink ID="HyperLink2" Width="120px" runat="server" NavigateUrl="~/staticPages/LaEmpresa.aspx"
+                                    meta:resourcekey="HyperLink2LaEmpresa" Text="La Empresa" /></a></li>
+                            <li class="webwidget_menu_glide_sprite_3"><a href="../staticPages/ServiciosEmpresa.aspx">
+                                <asp:HyperLink ID="HyperLink3" Width="120px" runat="server" NavigateUrl="~/staticPages/ServiciosEmpresa.aspx"
+                                    meta:resourcekey="HyperLink3Servicios" Text="Servicios" /></a></li>
+                            <li class="webwidget_menu_glide_sprite_4"><a href="../staticPages/Ubicacion.aspx">
+                                <asp:HyperLink ID="HyperLink4" Width="120px" runat="server" NavigateUrl="~/staticPages/Ubicacion.aspx"
+                                    meta:resourcekey="HyperLink4ubicacion" Text="Ubicacion" /></a></li>
+                            <li class="webwidget_menu_glide_sprite_5"><a href="../staticPages/Contactos.aspx">
+                                <asp:HyperLink ID="HyperLink5" Width="120px" runat="server" NavigateUrl="~/staticPages/Contactos.aspx"
+                                    meta:resourcekey="HyperLink5Contactos" Text="Contactos" /></a></li>
+                        </ul>
+                        <div style="clear: both"></div>
+                    </div>
+                </td>
+             </tr>
+        </table>
+        <table style="width: 100%;" cellpadding="0" cellspacing="0" align="center" class="ui-widget ui-corner-all">
+            <tr>
+                <td style="width: 15%; height: 200px; vertical-align: top">
+                    <fieldset class="  ui-corner-all">
+                        <legend class="ui-widget ui-state-default ui-corner-all ui-button-text" style="text-align: left;
+                            font-size: medium;">
+                            <asp:Label ID="Label5" runat="server" meta:resourcekey="legTituloMasterPage" />
+                            </legend>
+                        <table cellpadding="0" cellspacing="5" border="1">
+                            <tr>
+                                <td>
+                                    <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/images/banner/Banner1.xml"
+                                        Height="75px" Width="155px" meta:resourcekey="AdRotator1Resource1" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:AdRotator ID="AdRotator2" runat="server" AdvertisementFile="~/images/banner/Banner2.xml"
+                                        Height="75px" Width="155px" meta:resourcekey="AdRotator1Resource1" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:AdRotator ID="AdRotator3" runat="server" AdvertisementFile="~/images/banner/Banner3.xml"
+                                        Height="75px" Width="155px" meta:resourcekey="AdRotator1Resource1" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:AdRotator ID="AdRotator4" runat="server" AdvertisementFile="~/images/banner/Banner4.xml"
+                                        Height="75px" Width="155px" meta:resourcekey="AdRotator1Resource1" />
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                 </td><td style="width: 85%; height: 400px; vertical-align: top" align="left">
+                    <table cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td>
+                                <asp:Label ID="lblTitulo" runat="server" CssClass="txtSeccion" meta:resourcekey="lblTituloResource1" />
+                                <asp:ContentPlaceHolder ID="Contenido" runat="server" />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 100%; color: white; background-color: gray;" align="center"
+            cellpadding="0" cellspacing="0">
+            <tr>
+                <td style="width: 700px; height: 30px">
+                    <asp:Label ID="Label2" runat="server"
+                        meta:resourcekey="Label2Resource1" />
+                </td>
+                <td style="width: 155px; height: 30px">
+                    <asp:Label ID="Label3" runat="server"  meta:resourcekey="Label3Resource1" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

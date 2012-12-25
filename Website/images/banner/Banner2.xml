@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/images/banner/logo_fernandez.jpg</ImageUrl>
+		<NavigateUrl>http://www.museos.buenosaires.gov.ar/hernandez.htm</NavigateUrl>
+		<AlternateText>
+			Dirección:
+			Av. del Libertador 2373
+			Teléfono:
+			4803-2384
+		</AlternateText>
+		<Impressions>2</Impressions>
+		<Keyword>Museo del Cine</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/banner/logo_gardel.jpg</ImageUrl>
+		<NavigateUrl>http://www.museos.buenosaires.gov.ar/gardel.htm</NavigateUrl>
+		<AlternateText>
+			Dirección:
+			Jean Jaurés 735
+			Teléfonos:
+			4964-2015/2071
+		</AlternateText>
+		<Impressions>2</Impressions>
+		<Keyword>Museo de Carlos Gardel</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/banner/logo_hernandez.jpg</ImageUrl>
+		<NavigateUrl>http://www.museos.buenosaires.gov.ar/hernandez.htm</NavigateUrl>
+		<AlternateText>
+			Dirección:
+			Av. del Libertador 2373
+			Teléfono:
+			4803-2384
+		</AlternateText>
+		<Impressions>2</Impressions>
+		<Keyword>Museo Hernandez</Keyword>
+	</Ad>
+</Advertisements>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/images/banner/logo_larreta.jpg</ImageUrl>
+		<NavigateUrl>http://www.museos.buenosaires.gov.ar/larreta.htm</NavigateUrl>
+		<AlternateText>
+			Dirección:
+			Av. Juramento 2291
+			Teléfonos:
+			4783-2640 / 4784-4040
+		</AlternateText>
+		<Impressions>1</Impressions>
+		<Keyword>Museo Larreta</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/banner/logo_mam.jpg</ImageUrl>
+		<NavigateUrl>http://www.museos.buenosaires.gov.ar/mam.htm</NavigateUrl>
+		<AlternateText>
+			Dirección:
+			Av. San Juan 350
+			Teléfonos:
+			4342 3001/2970
+		</AlternateText>
+		<Impressions>2</Impressions>
+		<Keyword>Museo de Arte Moderno</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/banner/logo_perlotti.jpg</ImageUrl>
+		<NavigateUrl>http://www.museos.buenosaires.gov.ar/perlotti.htm</NavigateUrl>
+		<AlternateText>
+			Dirección:
+			Pujol 644
+			Teléfono:
+			4433-3396
+		</AlternateText>
+		<Impressions>2</Impressions>
+		<Keyword>Museo de esculuturas de Luis Perlotti</Keyword>
+	</Ad>
+</Advertisements>

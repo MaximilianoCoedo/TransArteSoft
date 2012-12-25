@@ -1,0 +1,5 @@
+C:\TransArte\TransArte.Recursos\bin\Debug\ProyTransArte.Recursos.dll
+C:\TransArte\TransArte.Recursos\bin\Debug\ProyTransArte.Recursos.pdb
+C:\TransArte\TransArte.Recursos\obj\Debug\ResolveAssemblyReference.cache
+C:\TransArte\TransArte.Recursos\obj\Debug\ProyTransArte.Recursos.dll
+C:\TransArte\TransArte.Recursos\obj\Debug\ProyTransArte.Recursos.pdb

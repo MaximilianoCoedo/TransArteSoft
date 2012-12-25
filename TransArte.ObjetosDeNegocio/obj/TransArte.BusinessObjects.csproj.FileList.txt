@@ -1,0 +1,13 @@
+bin\Release\TransArte.BusinessObjects.dll
+bin\Release\TransArte.BusinessObjects.pdb
+bin\Release\Core.DataBase.dll
+bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+bin\Release\Microsoft.Practices.ObjectBuilder.dll
+bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+bin\Release\Core.DataBase.pdb
+bin\Release\Microsoft.Practices.ObjectBuilder.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\TransArte.BusinessObjects.dll
+obj\Release\TransArte.BusinessObjects.pdb

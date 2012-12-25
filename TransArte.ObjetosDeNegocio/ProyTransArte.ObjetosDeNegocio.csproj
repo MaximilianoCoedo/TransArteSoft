@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{16C82525-4459-4C65-979B-8DD9C8D58852}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProyTransArte.ObjetosDeNegocio</RootNamespace>
+    <AssemblyName>ProyTransArte.ObjetosDeNegocio</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Elmah">
+      <HintPath>..\ELMAH-1.2-bin-x86\bin\net-2.0\Release\Elmah.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\ELMAH-1.2-bin-x86\bin\net-2.0\Release\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="mysql.data">
+      <HintPath>..\ELMAH-1.2-bin-x86\bin\net-2.0\Release\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql">
+      <HintPath>..\ELMAH-1.2-bin-x86\bin\net-2.0\Release\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\ELMAH-1.2-bin-x86\bin\net-2.0\Release\System.Data.SQLite.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ELMAH-1.2-bin-x86\bin\net-2.0\Release\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BOCodPostal.cs" />
+    <Compile Include="BOCriticidad.cs" />
+    <Compile Include="BODepartamentos.cs" />
+    <Compile Include="BODetalleFactura.cs" />
+    <Compile Include="BOEncabezadoFactura.cs" />
+    <Compile Include="BOEstados.cs" />
+    <Compile Include="BOEstadoServicio.cs" />
+    <Compile Include="BOGrupos.cs" />
+    <Compile Include="BOGruposPermisos.cs" />
+    <Compile Include="BOHojaDeRuta.cs" />
+    <Compile Include="BOLocalidades.cs" />
+    <Compile Include="BOMantenimientos.cs" />
+    <Compile Include="BOObrasDeArte.cs" />
+    <Compile Include="BOPermisos.cs" />
+    <Compile Include="BOProvincias.cs" />
+    <Compile Include="BOServicios.cs" />
+    <Compile Include="BOServiciosExtra.cs" />
+    <Compile Include="BOServicio_ServicioExtra.cs" />
+    <Compile Include="BOTipoFactura.cs" />
+    <Compile Include="BOUsuarios.cs" />
+    <Compile Include="BOBitacora.cs" />
+    <Compile Include="BODVVertical.cs" />
+    <Compile Include="BOUsuariosGrupos.cs" />
+    <Compile Include="BOUsuariosPermisos.cs" />
+    <Compile Include="BOVehiculos.cs" />
+    <Compile Include="BOVehiculosServicios.cs" />
+    <Compile Include="BOTelefonos.cs" />
+    <Compile Include="BOBackUp.cs" />
+    <Compile Include="BODomicilios.cs" />
+    <Compile Include="BOServicio_domicilio.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TransArte.AccesoDatos\ProyTransArte.AccesoDatos.csproj">
+      <Project>{E36D8913-156F-48F4-9078-9795423A5BC1}</Project>
+      <Name>ProyTransArte.AccesoDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TransArte.Recursos\ProyTransArte.BeanObjetos.csproj">
+      <Project>{E6638718-FAA3-4B9E-A2A4-1C2928FF9EB5}</Project>
+      <Name>ProyTransArte.BeanObjetos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\TransArte.BusinessObjects.dll" />
+    <Content Include="bin\Debug\TransArte.BusinessObjects.pdb" />
+    <Content Include="obj\Debug\TransArte.BusinessObjects.dll" />
+    <Content Include="obj\Debug\TransArte.BusinessObjects.pdb" />
+    <Content Include="obj\Debug\Refactor\TransArte.BusinessObjects.dll" />
+    <Content Include="obj\TransArte.BusinessObjects.csproj.FileList.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

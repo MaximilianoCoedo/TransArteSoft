@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/images/banner/logo_cine.jpg</ImageUrl>
+		<NavigateUrl>http://www.museos.buenosaires.gov.ar/cine.htm</NavigateUrl>
+		<AlternateText>
+			Sede provisoria:
+			José Salmún Feijoo 555
+			Telefonos:
+			4303-2882/2883
+			</AlternateText>
+		<Impressions>2</Impressions>
+		<Keyword>Museo del Cine</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/banner/logo_ciudad.jpg</ImageUrl>
+		<NavigateUrl>http://www.museos.buenosaires.gov.ar/ciudad.htm</NavigateUrl>
+		<AlternateText>
+			Dirección:
+			Defensa 219/223
+			Teléfonos:
+			4343-2123 / 4331-9855
+		</AlternateText>
+		<Impressions>2</Impressions>
+		<Keyword>Museo de la ciudad</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/banner/logo_dgm.jpg</ImageUrl>
+		<NavigateUrl>http://www.museos.buenosaires.gov.ar/dgm_centrodemuseos.htm</NavigateUrl>
+		<AlternateText>
+			Edificio de la Munich - sede de la Dirección General de Museos
+			Dirección:
+			Av. de los Italianos 851 - Puerto Madero
+			Teléfonos:
+			4516-0944/9
+		</AlternateText>
+		<Impressions>2</Impressions>
+		<Keyword>Centro de museos</Keyword>
+	</Ad>
+</Advertisements>

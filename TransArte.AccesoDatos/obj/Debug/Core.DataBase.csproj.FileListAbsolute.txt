@@ -1,0 +1,81 @@
+C:\TransArte\Core.Database\bin\Debug\Core.DataBase.dll
+C:\TransArte\Core.Database\bin\Debug\Core.DataBase.pdb
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.dll
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.dll
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.dll
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.dll
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.xml
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.xml
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.ObjectBuilder.xml
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.xml
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.xml
+C:\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.xml
+C:\TransArte\Core.Database\obj\Debug\ResolveAssemblyReference.cache
+C:\TransArte\Core.Database\obj\Debug\Core.DataBase.dll
+C:\TransArte\Core.Database\obj\Debug\Core.DataBase.pdb
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Core.DataBase.dll
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Core.DataBase.pdb
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.dll
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.dll
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.dll
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.dll
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.xml
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.xml
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.xml
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.ObjectBuilder.xml
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.xml
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.xml
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\obj\Debug\Core.DataBase.dll
+C:\Documents and Settings\Maximiliano\Escritorio\Facultad\Trabajo final de Ingenieria\TransArte\Core.Database\obj\Debug\Core.DataBase.pdb
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Core.DataBase.dll
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Core.DataBase.pdb
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.dll
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.dll
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.dll
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.dll
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.xml
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.xml
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.xml
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.ObjectBuilder.xml
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.xml
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\TransArte_EJemplo\Core.Database\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.xml
+C:\TransArte_EJemplo\Core.Database\obj\Debug\ResolveAssemblyReference.cache
+C:\TransArte_EJemplo\Core.Database\obj\Debug\Core.DataBase.dll
+C:\TransArte_EJemplo\Core.Database\obj\Debug\Core.DataBase.pdb

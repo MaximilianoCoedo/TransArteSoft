@@ -1,0 +1,13 @@
+C:\TransArte\TransArte.AccesoDatos\bin\Debug\ProyTransArte.AccesoDatos.dll
+C:\TransArte\TransArte.AccesoDatos\bin\Debug\ProyTransArte.AccesoDatos.pdb
+C:\TransArte\TransArte.AccesoDatos\bin\Debug\Elmah.dll
+C:\TransArte\TransArte.AccesoDatos\bin\Debug\Mono.Security.dll
+C:\TransArte\TransArte.AccesoDatos\bin\Debug\mysql.data.dll
+C:\TransArte\TransArte.AccesoDatos\bin\Debug\Npgsql.dll
+C:\TransArte\TransArte.AccesoDatos\bin\Debug\System.Data.SQLite.DLL
+C:\TransArte\TransArte.AccesoDatos\bin\Debug\System.Data.SqlServerCe.dll
+C:\TransArte\TransArte.AccesoDatos\bin\Debug\Elmah.pdb
+C:\TransArte\TransArte.AccesoDatos\bin\Debug\Elmah.xml
+C:\TransArte\TransArte.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\TransArte\TransArte.AccesoDatos\obj\Debug\ProyTransArte.AccesoDatos.dll
+C:\TransArte\TransArte.AccesoDatos\obj\Debug\ProyTransArte.AccesoDatos.pdb

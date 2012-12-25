@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3BA432AB-614F-4E22-919E-5C0A40B564CD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProyTransArte.ReglasDeNegocio</RootNamespace>
+    <AssemblyName>ProyTransArte.ReglasDeNegocio</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Elmah">
+      <HintPath>..\ELMAH-1.2-bin-x86\bin\net-2.0\Release\Elmah.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Application.Blocks\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Configuration.Design, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Application.Blocks\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Application.Blocks\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Application.Blocks\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging.Database, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Application.Blocks\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging.Database.Configuration.Design, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Application.Blocks\Microsoft.Practices.EnterpriseLibrary.Logging.Database.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\ELMAH-1.2-bin-x86\bin\net-2.0\Release\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="mysql.data">
+      <HintPath>..\ELMAH-1.2-bin-x86\bin\net-2.0\Release\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql">
+      <HintPath>..\ELMAH-1.2-bin-x86\bin\net-2.0\Release\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\ELMAH-1.2-bin-x86\bin\net-2.0\Release\System.Data.SQLite.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ELMAH-1.2-bin-x86\bin\net-2.0\Release\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BRCodPostal.cs" />
+    <Compile Include="BRCriticidad.cs" />
+    <Compile Include="BRDepartamentos.cs" />
+    <Compile Include="BRDetalleFactura.cs" />
+    <Compile Include="BRDVVertical.cs" />
+    <Compile Include="BREncabezadoFactura.cs" />
+    <Compile Include="BREstadoServicio.cs" />
+    <Compile Include="BRGrupos.cs" />
+    <Compile Include="BRGruposPermisos.cs" />
+    <Compile Include="BRHojaDeRuta.cs" />
+    <Compile Include="BRLocalidades.cs" />
+    <Compile Include="BRMantenimientos.cs" />
+    <Compile Include="BRObrasDeArte.cs" />
+    <Compile Include="BRPermisos.cs" />
+    <Compile Include="BRProvincias.cs" />
+    <Compile Include="BRServicios.cs" />
+    <Compile Include="BRServiciosExtra.cs" />
+    <Compile Include="BRServicio_ServicioExtra.cs" />
+    <Compile Include="BRTipoFactura.cs" />
+    <Compile Include="BRUsuarios.cs" />
+    <Compile Include="BRBitacora.cs" />
+    <Compile Include="BRUsuariosPermisos.cs" />
+    <Compile Include="BRUsuarios_Grupos.cs" />
+    <Compile Include="BRVehiculos.cs" />
+    <Compile Include="BRVehiculos_Servicios.cs" />
+    <Compile Include="BRLoger.cs" />
+    <Compile Include="BRTelefonos.cs" />
+    <Compile Include="BRBackUp.cs" />
+    <Compile Include="BRDomicilio.cs" />
+    <Compile Include="BRReportes.cs" />
+    <Compile Include="BRSeguridad.cs" />
+    <Compile Include="BRServicios_domicilio.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TransArte.AccesoDatos\ProyTransArte.AccesoDatos.csproj">
+      <Project>{E36D8913-156F-48F4-9078-9795423A5BC1}</Project>
+      <Name>ProyTransArte.AccesoDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TransArte.ObjetosDeNegocio\ProyTransArte.ObjetosDeNegocio.csproj">
+      <Project>{16C82525-4459-4C65-979B-8DD9C8D58852}</Project>
+      <Name>ProyTransArte.ObjetosDeNegocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TransArte.Recursos\ProyTransArte.BeanObjetos.csproj">
+      <Project>{E6638718-FAA3-4B9E-A2A4-1C2928FF9EB5}</Project>
+      <Name>ProyTransArte.BeanObjetos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="obj\Debug\Refactor\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,13 @@
+C:\TransArte\TransArte\TransArte.BussinesObjects\bin\Release\TransArte.BusinessObjects.dll
+C:\TransArte\TransArte\TransArte.BussinesObjects\bin\Release\TransArte.BusinessObjects.pdb
+C:\TransArte\TransArte\TransArte.BussinesObjects\bin\Release\Core.DataBase.dll
+C:\TransArte\TransArte\TransArte.BussinesObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\TransArte\TransArte\TransArte.BussinesObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\TransArte\TransArte\TransArte.BussinesObjects\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+C:\TransArte\TransArte\TransArte.BussinesObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\TransArte\TransArte\TransArte.BussinesObjects\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\TransArte\TransArte\TransArte.BussinesObjects\bin\Release\Core.DataBase.pdb
+C:\TransArte\TransArte\TransArte.BussinesObjects\bin\Release\Microsoft.Practices.ObjectBuilder.xml
+C:\TransArte\TransArte\TransArte.BussinesObjects\obj\Release\ResolveAssemblyReference.cache
+C:\TransArte\TransArte\TransArte.BussinesObjects\obj\Release\TransArte.BusinessObjects.dll
+C:\TransArte\TransArte\TransArte.BussinesObjects\obj\Release\TransArte.BusinessObjects.pdb

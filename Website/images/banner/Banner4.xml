@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/images/banner/logo_saavedra.jpg</ImageUrl>
+		<NavigateUrl>http://www.museos.buenosaires.gov.ar/saavedra.htm</NavigateUrl>
+		<AlternateText>
+			Dirección:
+			Crisólogo Larralde 6309
+			Teléfonos:
+			4572-0746 / 4574-1328
+		</AlternateText>
+		<Impressions>2</Impressions>
+		<Keyword>Museo Historico de bs as Cornelio Saavedra</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/banner/logo_sivori.jpg</ImageUrl>
+		<NavigateUrl>http://www.museos.buenosaires.gov.ar/sivori.htm</NavigateUrl>
+		<AlternateText>
+			Dirección:
+			Av. Infanta Isabel 555 - frente al puente del Rosedal - Parque Tres de Febrero
+			Teléfonos:
+			4774-9452 / 4772-5628 Telefax: 4778-3899
+		</AlternateText>
+		<Impressions>2</Impressions>
+		<Keyword>Museo de Artes Plasticas de Eduardo Sivori</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/banner/logo_torre.jpg</ImageUrl>
+		<NavigateUrl>http://www.museos.buenosaires.gov.ar/torre.htm</NavigateUrl>
+		<AlternateText>
+			Dirección:
+			Av. del Libertador 49 - Retiro
+			Teléfonos:
+			4311-0186
+		</AlternateText>
+		<Impressions>2</Impressions>
+		<Keyword>Torre Monumental</Keyword>
+	</Ad>
+</Advertisements>

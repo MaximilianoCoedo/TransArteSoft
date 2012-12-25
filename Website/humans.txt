@@ -1,0 +1,15 @@
+
+    Team: Maximiliano Coedo.
+        Diseñador: Maximiliano Coedo.
+        Site: [URL de la web de esta persona].
+        Contact: maxcoedo@yahoo.com.ar.
+        From: Argentina.
+
+    Thanks: A todos los que apportaron ideas de mejoras y dedicaron su tiempo para llegar a terminar con el proyecto.
+
+    Site: Pagina web desarrollada para terminar mi carrera de ingenieria en sistemas de la Universidad Abierta Interamericana (bsas-argentina).
+        Last update: 2012/12/01.
+        Language: Español e Ingles.
+        Doctype: .
+        Standards: .
+        Software: jquery, plug-ins y  librerias Open-Source, Visual Studio .Net 2010, SQL server 2008.

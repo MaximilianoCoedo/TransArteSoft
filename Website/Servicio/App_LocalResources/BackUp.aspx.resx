@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="backUpsResource1.Text" xml:space="preserve">
+    <value>Copias de seguridad</value>
+  </data>
+  <data name="backUpsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBackUpResource1.Text" xml:space="preserve">
+    <value>Resguardar Base de datos</value>
+  </data>
+  <data name="btnBackUpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBackUpTOOLResource1.Text" xml:space="preserve">
+    <value>Realiza el back up de la BD particionandola en la cantidad volumenes</value>
+  </data>
+  <data name="btnBackUpTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cantidadVolumenResource1.Text" xml:space="preserve">
+    <value>Cantidad de volumenes</value>
+  </data>
+  <data name="cantidadVolumenResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gridBackUpsTOOLResource1.Text" xml:space="preserve">
+    <value>Esta grilla muestra los back up realizados</value>
+  </data>
+  <data name="gridBackUpsTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="help_dialog_TOOLResource1.Text" xml:space="preserve">
+    <value>Cuadro de ayuda para el Back up de la Base de datos</value>
+  </data>
+  <data name="help_dialog_TOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="help_dialogResource1.Text" xml:space="preserve">
+    <value>&lt;span class='ui-icon ui-icon-comment' style='float: left; margin-right: .3em;'&gt;&lt;/span&gt;Servicio de ayuda</value>
+  </data>
+  <data name="lblTamanioBDResource1.Text" xml:space="preserve">
+    <value>Tamaño de la Base de datos: </value>
+  </data>
+  <data name="lblTamanioResource1.Text" xml:space="preserve">
+    <value>Tamaño:</value>
+  </data>
+  <data name="lblTamanioResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblvolResource1.Text" xml:space="preserve">
+    <value> Volumen/es: </value>
+  </data>
+  <data name="lblvolResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="legendTitleResource1.Text" xml:space="preserve">
+    <value>Resguardo de la base de datos:</value>
+  </data>
+  <data name="legendTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgErrorResource1.Text" xml:space="preserve">
+    <value>Se ha producido un error</value>
+  </data>
+  <data name="msgErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgErrorTamanioResource1.Text" xml:space="preserve">
+    <value>Debe ingresar el tamaño máximo del back-up</value>
+  </data>
+  <data name="msgErrorTamanioResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="msgProcesandoResource1.Text" xml:space="preserve">
+    <value>Aguarde un instante!!!</value>
+  </data>
+  <data name="msgProcesandoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nombreBackUpResource1.Text" xml:space="preserve">
+    <value>Descripción Back-Up</value>
+  </data>
+  <data name="nombreBackUpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>BackUp</value>
+  </data>
+  <data name="txtTamanioTOOLResource1.Text" xml:space="preserve">
+    <value>Ingrese el tamaño en BYTES maximo a particionar la base de datos</value>
+  </data>
+  <data name="txtTamanioTOOLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="help_dialog_contentResource1.Text" xml:space="preserve">
+    <value>&lt;span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Ayuda de Back Up de la Base de datos:&lt;/strong&gt;
+        &lt;br&gt;&lt;hr size="5" noshade&gt;&lt;br&gt;
+        En esta pantalla se podrá:
+        &lt;br&gt;&lt;br&gt;
+        &lt;span class="ui-icon ui-icon-radio-off" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        Brealizar el back up o copia de seguridad de la base de datos.-
+        &lt;br&gt;&lt;br&gt;&lt;hr size="5" noshade&gt;
+        &lt;br&gt;
+        &lt;span class="ui-icon ui-icon-play" style="float: left; margin-right: .3em;"&gt;&lt;/span&gt;
+        &lt;strong&gt;Realizar Back Up:&lt;/strong&gt;&lt;br&gt;&lt;br&gt;
+         Para realizar el back up de la base de datos, debe ingresar el tamaño en Bytes en que se va a particionar la base de datos,
+          al ingresar el tamaño automaticamente se calcula la cantidad de volumenes que se generan.-
+        &lt;br&gt;&lt;br&gt;&lt;hr size="5" noshade&gt;</value>
+  </data>
+  <data name="jsGridLibraryResource.Text" xml:space="preserve">
+    <value>../script/jquery.jqGrid-4.4.1/src/i18n/grid.locale-es.js</value>
+  </data>
+</root>

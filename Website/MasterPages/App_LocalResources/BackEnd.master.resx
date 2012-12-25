@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnLogoutResource.Text" xml:space="preserve">
+    <value>Cerrar sesion</value>
+  </data>
+  <data name="btnLogoutResource.ToolTip" xml:space="preserve">
+    <value>Cierra la sesion del usuario</value>
+  </data>
+  <data name="HyperLink4ubicacion.Text" xml:space="preserve">
+    <value>Ubicación</value>
+  </data>
+  <data name="HyperLink4ubicacion.ToolTip" xml:space="preserve">
+    <value>Lleva a la página donde muestra un mapa sobre la ubicación de la empresa y como llegar</value>
+  </data>
+  <data name="HyperLink1Inicio.Text" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="HyperLink1Inicio.ToolTip" xml:space="preserve">
+    <value>Lleva a la pagina inicial </value>
+  </data>
+  <data name="HyperLink2LaEmpresa.Text" xml:space="preserve">
+    <value>La Empresa</value>
+  </data>
+  <data name="HyperLink2LaEmpresa.ToolTip" xml:space="preserve">
+    <value>Lleva a la página donde muestra información sobre la empresa</value>
+  </data>
+  <data name="HyperLink3Servicios.Text" xml:space="preserve">
+    <value>Servicios</value>
+  </data>
+  <data name="HyperLink3Servicios.ToolTip" xml:space="preserve">
+    <value>Lleva a la página donde muestra información sobre los servicios que brinda la empresa</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Pasaje canning 3152, Ciudad de Buenos Aires(1870) | Tel-fax (54) 11 4204-6552</value>
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Copyright © 2012</value>
+  </data>
+  <data name="lblFechaResource.Text" xml:space="preserve">
+    <value>Fecha Actual</value>
+  </data>
+  <data name="lblFechaResource.ToolTip" xml:space="preserve">
+    <value>Muesta la fecha actual</value>
+  </data>
+  <data name="lblUsuarioResource.Text" xml:space="preserve">
+    <value>Usuario :</value>
+  </data>
+  <data name="lblUsuarioResource.ToolTip" xml:space="preserve">
+    <value>Indica el usuario logueado</value>
+  </data>
+  <data name="LnkBEspanolResource.ToolTip" xml:space="preserve">
+    <value>Cambia el idioma de la pagina a Español</value>
+  </data>
+  <data name="LnkBInglesResource.ToolTip" xml:space="preserve">
+    <value>Cambia el idioma de la pagina a Ingles</value>
+  </data>
+  <data name="HyperLink5Contactos.Text" xml:space="preserve">
+    <value>Contactos</value>
+  </data>
+  <data name="HyperLink5Contactos.ToolTip" xml:space="preserve">
+    <value>Lleva a la página donde muestra la forma de contactarse con la empresa</value>
+  </data>
+  <data name="lblEspanolResource.Text" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="lblEspanolResource.ToolTip" xml:space="preserve">
+    <value>Cambia el idioma de la pagina a Español</value>
+  </data>
+  <data name="lblInglesResource.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="lblInglesResource.ToolTip" xml:space="preserve">
+    <value>Cambia el idioma de la pagina a Ingles</value>
+  </data>
+  <data name="btnLoginResource.Text" xml:space="preserve">
+    <value>Iniciar sesion</value>
+  </data>
+  <data name="btnLoginResource.ToolTip" xml:space="preserve">
+    <value>Inicia la sesion del usuario</value>
+  </data>
+  <data name="legTituloMasterPage.Text" xml:space="preserve">
+    <value>Menú:</value>
+  </data>
+  <data name="lblTextoIntegridadWebControl" xml:space="preserve">
+    <value>La Base de Datos a sido modificada, contacte al Administrador Web</value>
+  </data>
+  <data name="ConfirmarServicio.Text" xml:space="preserve">
+    <value>Confirmar Servicio</value>
+  </data>
+  <data name="ConfirmarServicio.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para confirmar un servicio</value>
+  </data>
+  <data name="ContactarServicio.Text" xml:space="preserve">
+    <value>Contactar Servicio</value>
+  </data>
+  <data name="ContactarServicio.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para contactar un servicio</value>
+  </data>
+  <data name="EnrutarServicio.Text" xml:space="preserve">
+    <value>Enrutar Servicio</value>
+  </data>
+  <data name="EnrutarServicio.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para enrutar un servicio</value>
+  </data>
+  <data name="FinalizarServicio.Text" xml:space="preserve">
+    <value>Finalizar Servicio</value>
+  </data>
+  <data name="FinalizarServicio.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para finalizar un servicio</value>
+  </data>
+  <data name="solicitudServicio.Text" xml:space="preserve">
+    <value>Solicitar Servicio</value>
+  </data>
+  <data name="solicitudServicio.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para solicitar un servicio</value>
+  </data>
+  <data name="FacturarServicio.Text" xml:space="preserve">
+    <value>Facturar Servicio</value>
+  </data>
+  <data name="FacturarServicio.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para facturar un servicio</value>
+  </data>
+  <data name="CobrarServicio.Text" xml:space="preserve">
+    <value>Cobrar Servicio</value>
+  </data>
+  <data name="CobrarServicio.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para Cobrar un servicio</value>
+  </data>
+  <data name="Vehiculos.Text" xml:space="preserve">
+    <value>ABM Vehiculos</value>
+  </data>
+  <data name="Vehiculos.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para administrar los vehículos</value>
+  </data>
+  <data name="AdminUsuarios.Text" xml:space="preserve">
+    <value>Adm. de Usuario</value>
+  </data>
+  <data name="AdminUsuarios.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para modificar el usuario logueado</value>
+  </data>
+  <data name="ManejoEstados.Text" xml:space="preserve">
+    <value>ABM de Estado</value>
+  </data>
+  <data name="ManejoEstados.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para administrar el estado de un servicio</value>
+  </data>
+  <data name="AdminPermisos.Text" xml:space="preserve">
+    <value>ABM de Permisos</value>
+  </data>
+  <data name="AdminPermisos.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para administrar los permisos</value>
+  </data>
+  <data name="AdminServicios.Text" xml:space="preserve">
+    <value>ABM de Servicios</value>
+  </data>
+  <data name="AdminServicios.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para administrar los servicios</value>
+  </data>
+  <data name="Usuario.Text" xml:space="preserve">
+    <value>Perfil de Usuario</value>
+  </data>
+  <data name="Usuario.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para administrar los usuarios</value>
+  </data>
+  <data name="Calendario.Text" xml:space="preserve">
+    <value>Calendario</value>
+  </data>
+  <data name="Calendario.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para administrar el calendario</value>
+  </data>
+  <data name="BackUp.Text" xml:space="preserve">
+    <value>Copiar BD</value>
+  </data>
+  <data name="BackUp.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para realizar una copia de la base de datos</value>
+  </data>
+  <data name="Restore.Text" xml:space="preserve">
+    <value>Recuperar BD</value>
+  </data>
+  <data name="Restore.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para realizar la restauración de la base de datos</value>
+  </data>
+  <data name="Bitacora.Text" xml:space="preserve">
+    <value>Bitacora</value>
+  </data>
+  <data name="Bitacora.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para administrar la bítacora</value>
+  </data>
+  <data name="SeguimientoServicio.Text" xml:space="preserve">
+    <value>Seguimiento</value>
+  </data>
+  <data name="SeguimientoServicio.ToolTip" xml:space="preserve">
+    <value>Entrada de menú para el seguimiento del servicio</value>
+  </data>
+  <data name="Integridad.Text1" xml:space="preserve">
+    <value>Integridad</value>
+  </data>
+  <data name="Integridad.ToolTip1" xml:space="preserve">
+    <value>Entrada de menú para el corregir la integridad de la Base de datos</value>
+  </data>
+  <data name="dialogCerrarResource.Text" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="gridFechaCreacionResource.Text" xml:space="preserve">
+    <value>Fecha Creación</value>
+  </data>
+  <data name="gridNombreDelReporteResource.Text" xml:space="preserve">
+    <value>Nombre del reporte</value>
+  </data>
+  <data name="gridReportesResource.Text" xml:space="preserve">
+    <value>Reportes</value>
+  </data>
+  <data name="msgErrorBackEndResource.Text" xml:space="preserve">
+    <value>Se ha producido un error</value>
+  </data>
+  <data name="msgErrorUsuarioLogueadoResource.Text" xml:space="preserve">
+    <value>Para acceder a los reportes primero debe inciar una sesion.-</value>
+  </data>
+  <data name="msgProcesandoBackEndResource.Text" xml:space="preserve">
+    <value>Aguarde un instante!!!</value>
+  </data>
+  <data name="reportREC_dialogResource.Text" xml:space="preserve">
+    <value>Administración de reportes</value>
+  </data>
+  <data name="reportREC_dialog_TOOLResource.Text" xml:space="preserve">
+    <value>Centro administración de reportes</value>
+  </data>
+  <data name="gridTamanioResource.Text" xml:space="preserve">
+    <value>Tamaño</value>
+  </data>
+</root>
